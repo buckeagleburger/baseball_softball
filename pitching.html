@@ -6,51 +6,99 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Baseball &amp; Softball Pitching</title>
-		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+          	  rel="stylesheet"
+          	  integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+          	  crossorigin="anonymous">
+        <link rel="stylesheet" 
+        	  href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/superhero/bootstrap.min.css" integrity="sha384-HnTY+mLT0stQlOwD3wcAzSVAZbrBp141qwfR4WfTqVQKSgmcgzk+oP0ieIyrxiFO" crossorigin="anonymous">		
 	</head>
 	<body>
 		<header>
-			<nav>
-				<h1>Baseball &amp; Softball Information</h1>
-				<ul>
-					<li><a href="index.html">Index</a></li>
-					<li><a href="aboutpage.html">About Page</a></li>
-					<li><a href="pitching.html">Pitching</a></li>
-					<li><a href="hitting.html">Hitting</a></li>
-					<li><a href="fielding.html">Fielding</a></li>
-					<li><a href="sales.html">Sales</a></li>
-				</ul>
-			</nav>
+			  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    			<div class="container-fluid">
+      				<a class="navbar-brand" href="#">Baseball &amp; Softball Info</a>
+      				<button class="navbar-toggler"
+              				type="button"
+              				data-bs-toggle="collapse"
+              				data-bs-target="#navbarSupportedContent"
+              				aria-controls="navbarSupportedContent"
+              				aria-expanded="false"
+              				aria-label="Toggle navigation">
+        				<span class="navbar-toggler-icon"></span>
+      				</button>
+      				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+        				<ul class="navbar-nav me-auto mb-2 mb-sm-0">
+        				  <li class="nav-item">
+        				    <a class="nav-link active" aria-current="page" href="index.html">Index</a>
+        				  </li>
+				          <li class="nav-item">
+				        	<a class="nav-link" href="aboutpage.html">About</a>
+				          </li>
+						  <li class="nav-item">
+				        	<a class="nav-link" href="pitching.html">Pitching</a>
+				          </li>
+				          <li class="nav-item">
+				        	<a class="nav-link" href="hitting.html">Hitting</a>
+				          </li>
+				          <li class="nav-item">
+				        	<a class="nav-link" href="fielding.html">Fielding</a>
+				          </li>
+				          <li class="nav-item">
+				        	<a class="nav-link" href="sales.html">Sales</a>
+				          </li>
+        				</ul>
+      				</div>
+    			</div>
+  			  </nav>
 		</header>
-		<h2>Pitching</h2>
-		<section>
-			<img src="images/baseball.png" alt="Image of a Baseball" width ="200" height="200">
-			<img src="images/softball.png" alt="Image of a Softball" width ="200" height="200">
-		</section>
-		<article>
-			<p>When comparing pitching between baseball and softball the first noticeable
-			thing is how the windups are significantly different. In baseball it's an
-			overhand throw to pitch and they are sixty feet away from home plate. But, in
-			softball they pitch an underhand throw and are pitching from forty three
-			feet away. Although people think baseball is harder from the looks at it
-			with the distance of everything because it's so much longer/bigger, there
-			is a lot of different aspects that go into it.</p>
-			<p>Although baseball pitchers reach a higher velocity, with softball being 
-			a shorter distance the speeds and reaction times are very comparable. Another
-			difference between the two sports is that baseball players are pitching off
-			of an elevated mound as opposed to softball players from even ground in a
-			circle. The main pitches thrown in softball consist on a fastball,
-			changeup, curveball, and a rise and drop ball. In baseball the most common
-			pitches are a four seam fastball, a two seam fastball, a curveball, a
-			slider, and a changeup.</p>
-			<p>Another big impact in the difference between pitching in baseball or
-			softball is the size of the ball. Baseballs are white with red seams and
-			softball are yellow with red seams. The size of a baseball is nine inches (in
-			circumference) and a a softball is ten inches (in circumference). With the
-			baseball being smaller it's easier to hold onto and this makes it easier
-			with different grips allowing them to have many types of pitches to throw
-			compared to softball. But pitches like the drop and rise ball in softball
-			are movements baseball players don't see.</p>
-		</section>
+
+		<div class="container">
+
+			<h2>Pitching</h2>
+			<section>
+				<img src="images/baseball.png" alt="Image of a Baseball" width ="200" height="200">
+				<img src="images/softball.png" alt="Image of a Softball" width ="200" height="200">
+			</section>
+			<div class="row">
+				<div class="mycolor col-12 col-md-6">
+				When comparing pitching between baseball and softball the first noticeable
+				thing is how the windups are significantly different. In baseball it's an
+				overhand throw to pitch and they are sixty feet away from home plate. But, in
+				softball they pitch an underhand throw and are pitching from forty three
+				feet away. Although people think baseball is harder from the looks at it
+				with the distance of everything because it's so much longer/bigger, there
+				is a lot of different aspects that go into it.
+				</div>
+				<div class="mycolor col-12 col-md-6">
+				Although baseball pitchers reach a higher velocity, with softball being 
+				a shorter distance the speeds and reaction times are very comparable. Another
+				difference between the two sports is that baseball players are pitching off
+				of an elevated mound as opposed to softball players from even ground in a
+				circle. The main pitches thrown in softball consist on a fastball,
+				changeup, curveball, and a rise and drop ball. In baseball the most common
+				pitches are a four seam fastball, a two seam fastball, a curveball, a
+				slider, and a changeup.
+				</div>
+				<div class="mycolor col-12 col-md-6">
+				Another big impact in the difference between pitching in baseball or
+				softball is the size of the ball. Baseballs are white with red seams and
+				softball are yellow with red seams. The size of a baseball is nine inches (in
+				circumference) and a a softball is ten inches (in circumference). With the
+				baseball being smaller it's easier to hold onto and this makes it easier
+				with different grips allowing them to have many types of pitches to throw
+				compared to softball. But pitches like the drop and rise ball in softball
+				are movements baseball players don't see.
+				</div>
+			</div>
+			<div class="alert alert-primary" role="alert">
+  				The fastest pitch ever thrown was 105 mph!
+			</div>	
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous">
+		</script>		
 	</body>
 </html>

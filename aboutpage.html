@@ -4,32 +4,72 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Baseball & Softball Information</title>
-		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+          	  rel="stylesheet"
+          	  integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+          	  crossorigin="anonymous">
+        <link rel="stylesheet" 
+        	  href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/superhero/bootstrap.min.css" integrity="sha384-HnTY+mLT0stQlOwD3wcAzSVAZbrBp141qwfR4WfTqVQKSgmcgzk+oP0ieIyrxiFO" crossorigin="anonymous">
 	</head>
 	<body>
 
 		<header>
-			<nav>
-				<h1>Baseball &amp; Softball Information</h1>
-				<ul>
-					<li><a href="index.html">Index</a></li>
-					<li><a href="aboutpage.html">About Page</a></li>
-					<li><a href="pitching.html">Pitching</a></li>
-					<li><a href="hitting.html">Hitting</a></li>
-					<li><a href="fielding.html">Fielding</a></li>
-					<li><a href="sales.html">Sales</a></li>
-				</ul>
-			</nav>
+			  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    			<div class="container-fluid">
+      				<a class="navbar-brand" href="#">Baseball &amp; Softball Info</a>
+      				<button class="navbar-toggler"
+              				type="button"
+              				data-bs-toggle="collapse"
+              				data-bs-target="#navbarSupportedContent"
+              				aria-controls="navbarSupportedContent"
+              				aria-expanded="false"
+              				aria-label="Toggle navigation">
+        				<span class="navbar-toggler-icon"></span>
+      				</button>
+      				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+        				<ul class="navbar-nav me-auto mb-2 mb-sm-0">
+        				  <li class="nav-item">
+        				    <a class="nav-link active" href="index.html">Index</a>
+        				  </li>
+				          <li class="nav-item">
+				        	<a class="nav-link" aria-current="page" href="aboutpage.html">About</a>
+				          </li>
+						  <li class="nav-item">
+				        	<a class="nav-link" href="pitching.html">Pitching</a>
+				          </li>
+				          <li class="nav-item">
+				        	<a class="nav-link" href="hitting.html">Hitting</a>
+				          </li>
+				          <li class="nav-item">
+				        	<a class="nav-link" href="fielding.html">Fielding</a>
+				          </li>
+				          <li class="nav-item">
+				        	<a class="nav-link" href="sales.html">Sales</a>
+				          </li>
+        				</ul>
+      				</div>
+    			</div>
+  			  </nav>
 		</header>
-		<h2>About</h2>
-		<section>
-			<img src="images/baseball.png" alt="Image of a Baseball" width ="200" height="200">
-			<img src="images/softball.png" alt="Image of a Softball" width ="200" height="200">
-		</section>
-		<article>
-			<p class="even"> This is the about page which will give insight to our project. We have pages dedicated to hitting, pitching, fielding, and sales. The first three pages tell in depth the process of how to hit, pitch and field, along with the differences between softball and baseball. The last page has many different items which can be bought from various places. Things such as gloves, cleats and bats for each respective sport.</p>
 
-			<p class="even"> We decided to do our project on softball and baseball as we are both passionate about the subject. We have played the sport for as long as we can remember, and have chosen to play at the collegiate level as well. Our passion and drive for the game, as well as our knowledge on the sport helped us to write these pages explaining the process of each respective piece of the game.</p> 
-		</article>
+		<div class="container">
+
+			<h2>About</h2>
+			<section>
+				<img src="images/baseball.png" alt="Image of a Baseball" width ="200" height="200">
+				<img src="images/softball.png" alt="Image of a Softball" width ="200" height="200">
+			</section>
+			<article>
+				<p class="even"> This is the about page which will give insight to our project. We have pages dedicated to hitting, pitching, fielding, and sales. The first three pages tell in depth the process of how to hit, pitch and field, along with the differences between softball and baseball. The last page has many different items which can be bought from various places. Things such as gloves, cleats and bats for each respective sport.</p>
+
+				<p class="even"> We decided to do our project on softball and baseball as we are both passionate about the subject. We have played the sport for as long as we can remember, and have chosen to play at the collegiate level as well. Our passion and drive for the game, as well as our knowledge on the sport helped us to write these pages explaining the process of each respective piece of the game.</p> 
+			</article>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous">
+		</script>
 	</body>
 </html>

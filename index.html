@@ -6,43 +6,76 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Baseball &amp; Softball Information</title>
-		<style type="text/css">
-		p {
-			font-size: 20px;
-		}
-		</style>
-		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+          	  rel="stylesheet"
+          	  integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+          	  crossorigin="anonymous">
+        <link rel="stylesheet" 
+        	  href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/superhero/bootstrap.min.css" integrity="sha384-HnTY+mLT0stQlOwD3wcAzSVAZbrBp141qwfR4WfTqVQKSgmcgzk+oP0ieIyrxiFO" crossorigin="anonymous">
 	</head>
 	<body>
 		<header>
-			<nav>
-				<h1 style="font-size: 40px;">Baseball &amp; Softball Information</h1>
-				<ul>
-					<li><a href="index.html">Index</a></li>
-					<li><a href="aboutpage.html">About Page</a></li>
-					<li><a href="pitching.html">Pitching</a></li>
-					<li><a href="hitting.html">Hitting</a></li>
-					<li><a href="fielding.html">Fielding</a></li>
-					<li><a href="sales.html">Sales</a></li>
-				</ul>
-			</nav>
+			  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    			<div class="container-fluid">
+      				<a class="navbar-brand" href="#">Baseball &amp; Softball Info</a>
+      				<button class="navbar-toggler"
+              				type="button"
+              				data-bs-toggle="collapse"
+              				data-bs-target="#navbarSupportedContent"
+              				aria-controls="navbarSupportedContent"
+              				aria-expanded="false"
+              				aria-label="Toggle navigation">
+        				<span class="navbar-toggler-icon"></span>
+      				</button>
+      				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+        				<ul class="navbar-nav me-auto mb-2 mb-sm-0">
+        				  <li class="nav-item">
+        				    <a class="nav-link active" aria-current="page" href="index.html">Index</a>
+        				  </li>
+				          <li class="nav-item">
+				        	<a class="nav-link" href="aboutpage.html">About</a>
+				          </li>
+						  <li class="nav-item">
+				        	<a class="nav-link" href="pitching.html">Pitching</a>
+				          </li>
+				          <li class="nav-item">
+				        	<a class="nav-link" href="hitting.html">Hitting</a>
+				          </li>
+				          <li class="nav-item">
+				        	<a class="nav-link" href="fielding.html">Fielding</a>
+				          </li>
+				          <li class="nav-item">
+				        	<a class="nav-link" href="sales.html">Sales</a>
+				          </li>
+        				</ul>
+      				</div>
+    			</div>
+  			  </nav>
 		</header>
-		<h2>Index</h2>
-		<section>
-			<img src="images/baseball.png" alt="Image of a Baseball" width ="200" height="200">
-			<img src="images/softball.png" alt="Image of a Softball" width ="200" height="200">
-		</section>
-		<article>
-			<p>We will be providing basic information about baseball and softball. This
-			differences. We both have played these sports since we were younger. So,
-			we're going based off the surface information to inform you on the basic
-			knowledge of the sports. This information won't educate you on how to play
-			information is just the beginning of comparing the sports similarities and
-			the sport but will go into some detail about how they compare to one
-			another. While doing so, we will be comparing the differences between both
-			sports. Linked above are the few broad and important topics we will be explaining,
-			along with some equipment sale suggestions to end with.</p>
-			<p id="added">*This website is a perfect place for people new to the sport to come and get some base knowledge needed. Here you will be introduced to the sports and may fall in love. The sports of baseball and sooftball are so pure they are almost a form of art. They have changed a little bit throughout their many years but they remain to of the most graceful sports around.*</p>
-		</article>
+
+		<div class="container">
+			<h2>Index</h2>
+			<section>
+				<img src="images/baseball.png" alt="Image of a Baseball" width ="200" height="200">
+				<img src="images/softball.png" alt="Image of a Softball" width ="200" height="200">
+			</section>
+			<article>
+				<p>We will be providing basic information about baseball and softball. We both have played these sports since we were younger. So,
+				we're going based off the surface information to inform you on the basic
+				knowledge of the sports. This information won't educate you on how to play
+				information is just the beginning of comparing the sports similarities and
+				the sport but will go into some detail about how they compare to one
+				another. While doing so, we will be comparing the differences between both
+				sports. Linked above are the few broad and important topics we will be explaining,
+				along with some equipment sale suggestions to end with.</p>
+				<p id="added">*This website is a perfect place for people new to the sport to come and get some base knowledge needed. Here you will be introduced to the sports and may fall in love. The sports of baseball and sooftball are so pure they are almost a form of art. They have changed a little bit throughout their many years but they remain to of the most graceful sports around.*</p>
+			</article>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous">
+		</script>
 	</body>
 </html>
